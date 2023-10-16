@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+img{
+    margin-left: 10%;
+    width: 80%;
+    height:100px;
+}
+div{
+    background-color: rgb(15, 84, 163);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 250px;
+}
+h1,p{
+    font-size: 15px;
+    text-align: center;
+}
+h6{
+    text-align: center;
+    color: aliceblue;
+}
+h1{
+    position: relative;
+    top: -10%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: rgb(186, 218, 8);
+}
+.tipo{
+    background-color: blue;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+    font-size: 50px;
+    background-color: rgb(0, 99, 25);
+}
